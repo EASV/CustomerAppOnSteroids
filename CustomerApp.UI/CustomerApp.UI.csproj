@@ -10,4 +10,8 @@
     <ProjectReference Include="..\CustomerApp.Core.PrimaryDriverAdapters\CustomerApp.Core.PrimaryDriverAdapters.csproj" />
     <ProjectReference Include="..\Infrastructure.Data\CustomerApp.Infrastructure.Data.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.7" />
+  </ItemGroup>
 </Project>

@@ -18,21 +18,21 @@ namespace CustomerApp.Infrastructure.Data
 
         public void InitData()
         {
-            var address = new Address()
+            /*var address = new Address()
             {
                 StreetName = "smurf"
             };
            address = _addressRepo.AddAddress(address);
-
+*/
             
             var customer1 = new Customer
             {
                 FirstName = "John",
                 LastName = "Billson",
-                Address = new List<Address>()
+                /*Address = new List<Address>()
                 {
                     address
-                }
+                }*/
             };
             _customerRepo.AddCustomer(customer1);
             var customer2 = new Customer
