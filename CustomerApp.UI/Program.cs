@@ -18,7 +18,7 @@ namespace CustomerApp.UI
             
             var dataInitializer = new DataInitializer(customerRepository, null);
             dataInitializer.InitData();
-            
+            //comment
             var service = new CustomerService(customerRepository);
             var printer = new Printer(service);
             printer.ListAllCustomers();
