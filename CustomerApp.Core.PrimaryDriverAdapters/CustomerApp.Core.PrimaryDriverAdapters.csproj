@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>CustomerApp.Core.PrimaryAdapters</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CustomerApp.Core.Entity\CustomerApp.Core.Entity.csproj" />
+      <ProjectReference Include="..\CustomerApp.Core.InfrastructurePorts\CustomerApp.Core.InfrastructurePorts.csproj" />
+      <ProjectReference Include="..\CustomerApp.Core.PrimaryDriverPorts\CustomerApp.Core.PrimaryDriverPorts.csproj" />
+    </ItemGroup>
+
+</Project>
